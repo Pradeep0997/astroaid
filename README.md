@@ -1,5 +1,7 @@
-![astroaid-project-image2](https://github.com/user-attachments/assets/a250b780-6e55-4c38-8928-eae29fd5f492)# AstroAid 🚀
+# AstroAid 🚀
 
+
+---
 AstroAid is a full-stack space-tech application built for AstroHack 2025. It leverages public space APIs to provide real-time satellite pass data and daily astronomical content to users anywhere on Earth.
 
 > **Explore Space. Code the Future.**
@@ -20,15 +22,37 @@ AstroAid is a full-stack space-tech application built for AstroHack 2025. It lev
 
 ---
 
+
+
 ## 📖 About the Project
 
 AstroAid brings space closer to you. Whether you're a student, space enthusiast, or a curious mind, AstroAid provides:
 
+
+
+**ScreenShots**: 
+
+
 - 🌠 **Astronomy Picture of the Day (APOD)**:![astroaid-project-image2](https://github.com/user-attachments/assets/6bf2f04f-a83a-40f3-a295-ffaba713feed)
 
+
+
 - 🛰️ **Real-time ISS Satellite Passes**: ![astroaid-project-image3](https://github.com/user-attachments/assets/d034cada-a201-4893-b986-efd5bfdaa02f)
+
+  
 - **Other Images** :![astroaid-project-image4](https://github.com/user-attachments/assets/2e27ec22-731b-4338-bf33-56abcd72fb31)
+
+  
 - ![astroaid-project-image6](https://github.com/user-attachments/assets/a74268e4-f011-4bcb-8af7-5cc23a25c165)
+
+
+
+
+- ![astroaid-project-image2](https://github.com/user-attachments/assets/a250b780-6e55-4c38-8928-eae29fd5f492)
+
+
+
+
 
 
 
@@ -36,7 +60,11 @@ Built during AstroHack 2025 with a focus on creativity, accessibility, and real-
 
 ---
 
-## 🚀 Features
+
+
+## 🚀 **Features**
+
+
 
 - 🔭 View NASA's Astronomy Picture of the Day with title and explanation.
 - 📍 Automatically detect your location to show upcoming satellite passes.
@@ -45,6 +73,10 @@ Built during AstroHack 2025 with a focus on creativity, accessibility, and real-
 - ⚙️ Uses environment-based backend for API proxying.
 
 ---
+
+
+
+
 
 ## 🧰 Tech Stack
 
@@ -68,12 +100,22 @@ Built during AstroHack 2025 with a focus on creativity, accessibility, and real-
 
 ---
 
+
+
+
+
+
+
+
 ## 🔗 Live Demo
 
 **Frontend**: [https://astroaid.vercel.app](https://astroaid.vercel.app)  
 **Backend API**: [https://astroaid-backend.onrender.com](https://astroaid-backend.onrender.com)
 
 ---
+
+
+
 
 ## 🛠️ Getting Started (Local Setup)
 
@@ -98,19 +140,25 @@ node proxy-server.js
 cd ../client
 npm install
 npm start
+---
+
+
 
 
 🗂️ Project Structure
 
-astroaid/
-├── client/         # React frontend
-│   └── src/
-│       ├── components/
-│       └── App.js
-├── server/         # Node.js backend
-│   └── proxy-server.js
-├── render.yaml     # Render deployment config
-└── README.md
+- astroaid/
+- ├── client/         # React frontend
+-  │   └── src/
+-  │       ├── components/
+-  │       └── App.js
+- ├── server/         # Node.js backend
+-  │   └── proxy-server.js
+- ├── render.yaml     # Render deployment config
+- └── README.md
+
+
+
 
 
 
@@ -128,12 +176,20 @@ astroaid/
 
 
 📜 **License**
+
 This project is licensed under the MIT License.
 See the LICENSE file for details.
 
+
+
+
 👨‍🚀 **Team**
+
+
 Settipalle Pradeep Reddy
-GitHub 
+
+
+GitHub https://github.com/Pradeep0997
 
 LinkedIn:www.linkedin.com/in/settipalle-pradeep-reddy-7aa659230
 
