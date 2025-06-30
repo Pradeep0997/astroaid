@@ -1,70 +1,140 @@
-# Getting Started with Create React App
+![astroaid-project-image2](https://github.com/user-attachments/assets/a250b780-6e55-4c38-8928-eae29fd5f492)# AstroAid 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+AstroAid is a full-stack space-tech application built for AstroHack 2025. It leverages public space APIs to provide real-time satellite pass data and daily astronomical content to users anywhere on Earth.
 
-## Available Scripts
+> **Explore Space. Code the Future.**
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🌌 Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Live Demo](#live-demo)
+- [Getting Started](#getting-started)
+- [API Usage](#api-usage)
+- [Project Structure](#project-structure)
+- [Screenshots](#screenshots)
+- [License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📖 About the Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+AstroAid brings space closer to you. Whether you're a student, space enthusiast, or a curious mind, AstroAid provides:
 
-### `npm run build`
+- 🌠 **Astronomy Picture of the Day (APOD)**:![astroaid-project-image2](https://github.com/user-attachments/assets/6bf2f04f-a83a-40f3-a295-ffaba713feed)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 🛰️ **Real-time ISS Satellite Passes**: ![astroaid-project-image3](https://github.com/user-attachments/assets/d034cada-a201-4893-b986-efd5bfdaa02f)
+- **Other Images** :![astroaid-project-image4](https://github.com/user-attachments/assets/2e27ec22-731b-4338-bf33-56abcd72fb31)
+- ![astroaid-project-image6](https://github.com/user-attachments/assets/a74268e4-f011-4bcb-8af7-5cc23a25c165)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Built during AstroHack 2025 with a focus on creativity, accessibility, and real-world API integration.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- 🔭 View NASA's Astronomy Picture of the Day with title and explanation.
+- 📍 Automatically detect your location to show upcoming satellite passes.
+- 📡 Display ISS flyover times, duration, and max elevation.
+- 🌐 Fully responsive and intuitive UI/UX.
+- ⚙️ Uses environment-based backend for API proxying.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🧰 Tech Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Frontend:**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- React.js
+- Axios
+- Tailwind CSS
+- Vercel (Hosting)
 
-### Code Splitting
+**Backend:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Node.js
+- Express.js
+- Render (Hosting)
 
-### Analyzing the Bundle Size
+**APIs Used:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [NASA APOD API](https://api.nasa.gov/)
+- [N2YO Satellite Pass API](https://www.n2yo.com/api/)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🔗 Live Demo
 
-### Advanced Configuration
+**Frontend**: [https://astroaid.vercel.app](https://astroaid.vercel.app)  
+**Backend API**: [https://astroaid-backend.onrender.com](https://astroaid-backend.onrender.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🛠️ Getting Started (Local Setup)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Prerequisites
 
-### `npm run build` fails to minify
+- Node.js (v16+)
+- Git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Installation
+
+bash
+# Clone the repository
+git clone https://github.com/Pradeep0997/astroaid.git
+cd astroaid
+
+# Start backend
+cd server
+npm install
+node proxy-server.js
+
+# In a new terminal, start frontend
+cd ../client
+npm install
+npm start
+
+
+🗂️ Project Structure
+
+astroaid/
+├── client/         # React frontend
+│   └── src/
+│       ├── components/
+│       └── App.js
+├── server/         # Node.js backend
+│   └── proxy-server.js
+├── render.yaml     # Render deployment config
+└── README.md
+
+
+
+
+**Hackathon Highlights:**
+
+🌍 Built in 7 days during AstroHack 2025
+
+🎯 Integrated 2 public APIs for space exploration
+
+🧠 Learned about real-time data visualization and CORS proxying
+
+🤝 Designed for space learners, by space lovers
+
+
+
+📜 **License**
+This project is licensed under the MIT License.
+See the LICENSE file for details.
+
+👨‍🚀 **Team**
+Settipalle Pradeep Reddy
+GitHub 
+
+LinkedIn:www.linkedin.com/in/settipalle-pradeep-reddy-7aa659230
+
+
