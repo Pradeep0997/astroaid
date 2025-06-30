@@ -1,0 +1,14 @@
+{
+  "passes": [
+    {
+      "startUTC": 1719868800,
+      "duration": 360,
+      "maxEl": 85
+    },
+    {
+      "startUTC": 1719872400,
+      "duration": 420,
+      "maxEl": 76
+    }
+  ]
+}

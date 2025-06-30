@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: astroaid-backend
+    env: node
+    buildCommand: cd server && npm install
+    startCommand: cd server && node proxy-server.js
+    envVars:
+      - key: N2YO_API_KEY
+        value: your_actual_api_key_here
